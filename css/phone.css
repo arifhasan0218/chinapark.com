@@ -1,0 +1,97 @@
+
+
+/* ==========================Navigation bar & logo style here======================= */
+#navbar{
+    flex-direction: column;
+}
+ .logo img{
+    display: block;
+    width: 150px;
+    padding-bottom: 0;
+}
+#navbar ul li a{
+    padding: 0 7px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* ==========================Home Section Style here======================= */
+#home {
+    height: 276px;
+    padding: 10px 20px;
+}
+#home::before{
+    height: 400px;
+    
+}
+
+
+#home p{
+    font-size: 13px;
+}
+
+/* ==========================Services Section Style here======================= */
+#services{
+    flex-direction: column;
+    padding: 0px 0;
+}
+#services .box{
+    padding: 35px;
+    margin: 10px 15px;
+}
+
+/* ==========================Client Section Style here======================= */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 60px;
+    padding: 10px;
+}
+
+/* ==========================Contact Section style here======================= */
+#contact-box form{
+    width: 80%;
+}
+
+/* =====================Footer Sections======================= */
+
+footer{
+    font-size:13px ;
+    height: auto;
+}
+
+/* =====================Utility Classes======================= */
+
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+
+
+
+
+
+
+
+/* ==========================Navigation bar & logo style here======================= */
+
+
+/* ==========================Home Section Style here======================= */
+
+
+/* ==========================Services Section Style here======================= */
+
+
+/* ==========================Client Section Style here======================= */
+
+
+/* ==========================Contact Section style here======================= */
+
+
+/* =====================Utility Classes======================= */

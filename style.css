@@ -1,0 +1,282 @@
+/* ==========================Google fonts Collections======================= */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Dosis:wght@300;400;500;700;800&display=swap');
+
+/* ==========================Common css style here======================= */
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+/* ==========================Css Variables ======================= */
+:root{
+    --Baloo-font-family:'Baloo 2', cursive;
+    --Dosos-font-family: 'Dosis', sans-serif;
+}
+
+/* ==========================Navigation bar & logo style here======================= */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+#navbar::before{
+    content: '';
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.logo{
+    margin: 4px 10px;
+}
+.logo img{
+    width: 90px;
+    filter: invert(100%);
+}
+
+#navbar ul{
+    display: flex;
+}
+/* #navbar ul li{
+
+} */
+#navbar ul li a{
+    display: block;
+    font-size: 1.3rem;
+    padding: 3px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+#navbar ul li a:hover{
+    background: #fff;
+    color: black;
+}
+
+/* ==========================Home Section Style here======================= */
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 485px;
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background: url(/img/background-1.jpg) center no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 587px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#home p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/* ==========================Services Section Style here======================= */
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#services .box{
+    border: 2px solid red;
+    padding: 16px;
+    margin: 14px;
+    border-radius: 24px;
+    background: #d4d4d4;
+}
+
+#services .box img{
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin: auto;
+
+}
+
+#services .box h2{
+
+}
+#services .box p{
+font-family: var(--Dosos-font-family);
+}
+
+/* ==========================Client Section Style here======================= */
+#client-section{
+    position: relative;
+}
+#client-section h1{
+}
+#client-section::before{
+    content: '';
+    position: absolute;
+    background: url('/img/background-2.jpg');
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#clients .clients-items{
+    padding: 5px 34px;
+}
+#client-section img{
+    height: 80px;
+}
+/* ==========================Contact Section style here======================= */
+
+#contact{
+position: relative;
+}
+
+#contact::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('/img/contact-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 34px;
+
+}
+#contact-box input,
+#contact-box textarea
+{
+    border-radius: 9px;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    outline: none;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: var(--Dosos-font-family);
+    font-weight: 500;
+}
+#contact-box .form-group{
+
+}
+
+footer{
+    background: black;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    padding:  12px 20px;
+    font-size: 1.8rem;
+}
+
+
+/* =====================Utility Classes======================= */
+.center{
+    text-align: center;
+}
+
+.h-slogan{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid #fff;
+    background: brown;
+    color: #fff;
+    border-radius: 10px;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 20px;
+    font-family: var(--Baloo-font-family);
+}
+.h-secondery{
+    font-size: 2.3rem;
+    padding: 20px;
+    font-family: var(--Baloo-font-family);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
